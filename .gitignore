@@ -3,12 +3,11 @@
 *.py[cod]
 *$py.class
 .env
-.venv/
-venv/
-chroma_db/
+**/venv/
+**/.venv/
+**/chroma_db/
 
 # --- Frontend (Flutter) ---
-# This ignores the 2GB of generated build files
 **/build/
 **/.dart_tool/
 **/.packages
